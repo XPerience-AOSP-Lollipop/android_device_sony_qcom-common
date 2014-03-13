@@ -48,6 +48,10 @@
 /dev/kgsl-3d0                  u:object_r:kgsl_device:s0
 /dev/kgsl                      u:object_r:kgsl_device:s0
 
+# Modem firmware loader
+/dev/ttyHSL1                       u:object_r:kickstart_device:s0
+/dev/tty_sdio_00                   u:object_r:kickstart_device:s0
+
 # for wpa
 /dev/rfkill                    u:object_r:rfkill_device:s0
 
